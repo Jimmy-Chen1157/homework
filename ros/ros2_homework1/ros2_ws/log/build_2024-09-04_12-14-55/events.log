@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.000500] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.004046] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.004733] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.029505] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.029595] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/cpp_srvcli'], 'cwd': '/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('HOSTNAME', 'a3018f2a4cf3'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.097580] (-) TimerEvent: {}
+[0.163836] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198651] (-) TimerEvent: {}
+[0.249989] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.270622] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299484] (-) TimerEvent: {}
+[0.365859] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.366005] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.366047] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.366086] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.372907] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400152] (-) TimerEvent: {}
+[0.471789] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.472118] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.472222] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.472262] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.482164] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.501364] (-) TimerEvent: {}
+[0.602784] (-) TimerEvent: {}
+[0.663496] (cpp_srvcli) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.703085] (-) TimerEvent: {}
+[0.765107] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.803196] (-) TimerEvent: {}
+[0.817917] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.834740] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.856827] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.881797] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.907442] (-) TimerEvent: {}
+[1.012492] (-) TimerEvent: {}
+[1.059681] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[1.063534] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.117827] (-) TimerEvent: {}
+[1.218435] (-) TimerEvent: {}
+[1.220626] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.256212] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[1.305661] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.319329] (-) TimerEvent: {}
+[1.430832] (-) TimerEvent: {}
+[1.493735] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)\n'}
+[1.531330] (-) TimerEvent: {}
+[1.632456] (-) TimerEvent: {}
+[1.741738] (-) TimerEvent: {}
+[1.764927] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[1.837618] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.837957] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.838094] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.838179] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.838312] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.838396] (cpp_srvcli) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.838702] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.841530] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.842426] (-) TimerEvent: {}
+[1.866379] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[1.871153] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/cpp_srvcli\n'}
+[1.882428] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[1.885690] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[1.885789] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/cpp_srvcli', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('HOSTNAME', 'a3018f2a4cf3'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.942842] (-) TimerEvent: {}
+[1.966466] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[1.967896] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[2.043153] (-) TimerEvent: {}
+[2.151005] (-) TimerEvent: {}
+[2.252172] (-) TimerEvent: {}
+[2.353586] (-) TimerEvent: {}
+[2.454237] (-) TimerEvent: {}
+[2.559550] (-) TimerEvent: {}
+[2.662384] (-) TimerEvent: {}
+[2.764010] (-) TimerEvent: {}
+[2.865109] (-) TimerEvent: {}
+[2.966185] (-) TimerEvent: {}
+[3.079493] (-) TimerEvent: {}
+[3.181683] (-) TimerEvent: {}
+[3.284675] (-) TimerEvent: {}
+[3.388478] (-) TimerEvent: {}
+[3.492609] (-) TimerEvent: {}
+[3.597493] (-) TimerEvent: {}
+[3.698444] (-) TimerEvent: {}
+[3.802065] (-) TimerEvent: {}
+[3.908330] (-) TimerEvent: {}
+[4.010436] (-) TimerEvent: {}
+[4.117925] (-) TimerEvent: {}
+[4.228004] (-) TimerEvent: {}
+[4.331099] (-) TimerEvent: {}
+[4.432494] (-) TimerEvent: {}
+[4.536848] (-) TimerEvent: {}
+[4.642447] (-) TimerEvent: {}
+[4.745817] (-) TimerEvent: {}
+[4.846596] (-) TimerEvent: {}
+[4.960390] (-) TimerEvent: {}
+[5.061382] (-) TimerEvent: {}
+[5.175308] (-) TimerEvent: {}
+[5.276122] (-) TimerEvent: {}
+[5.378285] (-) TimerEvent: {}
+[5.492360] (-) TimerEvent: {}
+[5.593178] (-) TimerEvent: {}
+[5.694376] (-) TimerEvent: {}
+[5.794904] (-) TimerEvent: {}
+[5.912994] (-) TimerEvent: {}
+[6.013602] (-) TimerEvent: {}
+[6.117222] (-) TimerEvent: {}
+[6.219275] (-) TimerEvent: {}
+[6.325579] (-) TimerEvent: {}
+[6.427799] (-) TimerEvent: {}
+[6.530599] (-) TimerEvent: {}
+[6.633381] (-) TimerEvent: {}
+[6.737702] (-) TimerEvent: {}
+[6.849447] (-) TimerEvent: {}
+[6.950251] (-) TimerEvent: {}
+[7.051788] (-) TimerEvent: {}
+[7.153493] (-) TimerEvent: {}
+[7.257620] (-) TimerEvent: {}
+[7.363402] (-) TimerEvent: {}
+[7.464258] (-) TimerEvent: {}
+[7.570692] (-) TimerEvent: {}
+[7.673929] (-) TimerEvent: {}
+[7.776614] (-) TimerEvent: {}
+[7.877477] (-) TimerEvent: {}
+[7.980315] (-) TimerEvent: {}
+[8.081406] (-) TimerEvent: {}
+[8.186218] (-) TimerEvent: {}
+[8.295608] (-) TimerEvent: {}
+[8.402045] (-) TimerEvent: {}
+[8.503643] (-) TimerEvent: {}
+[8.609473] (-) TimerEvent: {}
+[8.716410] (-) TimerEvent: {}
+[8.823030] (-) TimerEvent: {}
+[8.927643] (-) TimerEvent: {}
+[9.028262] (-) TimerEvent: {}
+[9.120895] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[9.131765] (-) TimerEvent: {}
+[9.232468] (-) TimerEvent: {}
+[9.335683] (-) TimerEvent: {}
+[9.437428] (-) TimerEvent: {}
+[9.461105] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] Built target server\n'}
+[9.511976] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[9.537955] (-) TimerEvent: {}
+[9.638596] (-) TimerEvent: {}
+[9.731824] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[9.739607] (-) TimerEvent: {}
+[9.754587] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[9.815954] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[9.829021] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/cpp_srvcli'], 'cwd': '/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('HOSTNAME', 'a3018f2a4cf3'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[9.840502] (-) TimerEvent: {}
+[9.840762] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.841848] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[9.843495] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[9.843594] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[9.848795] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[9.849039] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[9.849108] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[9.849157] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[9.849207] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[9.849252] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[9.849299] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[9.849347] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[9.850601] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[9.850818] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[9.850877] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[9.850927] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[9.850976] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[9.851703] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[9.851878] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[9.851975] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[9.857808] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[9.942337] (-) TimerEvent: {}
+[9.945947] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[9.947684] (-) EventReactorShutdown: {}
