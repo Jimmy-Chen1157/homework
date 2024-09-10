@@ -1,0 +1,2 @@
+Invoking command in '/hw_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/cpp_topic -- -j4 -l4
+Invoked command in '/hw_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/cpp_topic -- -j4 -l4

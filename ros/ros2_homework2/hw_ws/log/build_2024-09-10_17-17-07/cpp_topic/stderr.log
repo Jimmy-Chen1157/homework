@@ -1,0 +1,34 @@
+[01m[K/hw_ws/src/cpp_topic/src/subscriber_member_function.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/Int32.hpp: No such file or directory
+    4 | #include [01;31m[K"std_msgs/msg/Int32.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/hw_ws/src/cpp_topic/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/hw_ws/src/cpp_topic/src/publisher_member_function.cpp:9:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+    9 |     auto publisher = node->create_publisher<[01;31m[Kstd_msgs[m[K::msg::Int32>("count_values", 10); // Explalin this line
+      |                                             [01;31m[K^~~~~~~~[m[K
+[01m[K/hw_ws/src/cpp_topic/src/publisher_member_function.cpp:9:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+    9 |     auto publisher = node->[01;31m[Kcreate_publisher<std_msgs::msg::Int32>[m[K("count_values", 10); // Explalin this line
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/hw_ws/src/cpp_topic/src/publisher_member_function.cpp:9:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [13], int)[m[K’
+    9 |     auto publisher = [01;31m[Knode->create_publisher<std_msgs::msg::Int32>("count_values", 10)[m[K; // Explalin this line
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/hw_ws/src/cpp_topic/src/publisher_member_function.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  196 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/hw_ws/src/cpp_topic/src/publisher_member_function.cpp:9:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |     auto publisher = [01;31m[Knode->create_publisher<std_msgs::msg::Int32>("count_values", 10)[m[K; // Explalin this line
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/hw_ws/src/cpp_topic/src/publisher_member_function.cpp:18:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ is not a class, namespace, or enumeration
+   18 |         auto msg = [01;31m[Kstd_msgs[m[K::msg::Int32();
+      |                    [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

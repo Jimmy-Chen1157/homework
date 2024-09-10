@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000278] (cpp_topic) JobQueued: {'identifier': 'cpp_topic', 'dependencies': OrderedDict()}
+[0.000313] (cpp_topic) JobStarted: {'identifier': 'cpp_topic'}
+[0.035528] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'cmake'}
+[0.036343] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '/hw_ws/src/cpp_topic', '-DCMAKE_INSTALL_PREFIX=/hw_ws/src/install/cpp_topic'], 'cwd': '/hw_ws/src/build/cpp_topic', 'env': OrderedDict([('HOSTNAME', '7c4c1df15ff8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/hw_ws/src/cpp_topic/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/hw_ws/src/build/cpp_topic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.097031] (-) TimerEvent: {}
+[0.168066] (cpp_topic) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.197192] (-) TimerEvent: {}
+[0.241220] (cpp_topic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.253472] (cpp_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.297926] (-) TimerEvent: {}
+[0.378827] (cpp_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.385984] (cpp_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.386835] (cpp_topic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.386908] (cpp_topic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.391824] (cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.398265] (-) TimerEvent: {}
+[0.499606] (-) TimerEvent: {}
+[0.551460] (cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.552295] (cpp_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.552611] (cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.552656] (cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.552693] (cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.599696] (-) TimerEvent: {}
+[0.700969] (-) TimerEvent: {}
+[0.711997] (cpp_topic) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.793387] (cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.823753] (cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.823899] (-) TimerEvent: {}
+[0.838966] (cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.857246] (cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.872535] (cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.992868] (-) TimerEvent: {}
+[0.993706] (cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.995594] (cpp_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.093192] (-) TimerEvent: {}
+[1.172050] (cpp_topic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.193536] (-) TimerEvent: {}
+[1.222623] (cpp_topic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[1.275474] (cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.293905] (-) TimerEvent: {}
+[1.395890] (-) TimerEvent: {}
+[1.446274] (cpp_topic) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[1.474771] (cpp_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[1.518587] (-) TimerEvent: {}
+[1.546568] (cpp_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.546736] (cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.546782] (cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.546825] (cpp_topic) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.546867] (cpp_topic) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.546909] (cpp_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.547192] (cpp_topic) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.547753] (cpp_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.547836] (cpp_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.548629] (cpp_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.551119] (cpp_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.581631] (cpp_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[1.584611] (cpp_topic) StdoutLine: {'line': b'-- Build files have been written to: /hw_ws/src/build/cpp_topic\n'}
+[1.595085] (cpp_topic) CommandEnded: {'returncode': 0}
+[1.595512] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'build'}
+[1.599547] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/hw_ws/src/build/cpp_topic', '--', '-j4', '-l4'], 'cwd': '/hw_ws/src/build/cpp_topic', 'env': OrderedDict([('HOSTNAME', '7c4c1df15ff8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/hw_ws/src/cpp_topic/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/hw_ws/src/build/cpp_topic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.624122] (-) TimerEvent: {}
+[1.697076] (cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.697818] (cpp_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.726034] (-) TimerEvent: {}
+[5.380947] (-) TimerEvent: {}
+[5.523578] (cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.523764] (-) TimerEvent: {}
+[5.742992] (cpp_topic) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[5.743198] (-) TimerEvent: {}
+[5.947049] (-) TimerEvent: {}
+[6.051545] (-) TimerEvent: {}
+[6.154307] (-) TimerEvent: {}
+[6.259542] (-) TimerEvent: {}
+[6.844894] (-) TimerEvent: {}
+[7.472173] (-) TimerEvent: {}
+[7.574385] (-) TimerEvent: {}
+[7.675516] (-) TimerEvent: {}
+[7.781948] (-) TimerEvent: {}
+[7.886892] (-) TimerEvent: {}
+[7.932813] (cpp_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[7.994284] (-) TimerEvent: {}
+[8.099244] (-) TimerEvent: {}
+[8.200434] (-) TimerEvent: {}
+[8.291284] (cpp_topic) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[8.301678] (-) TimerEvent: {}
+[8.305586] (cpp_topic) CommandEnded: {'returncode': 0}
+[8.374119] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'install'}
+[8.384255] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/hw_ws/src/build/cpp_topic'], 'cwd': '/hw_ws/src/build/cpp_topic', 'env': OrderedDict([('HOSTNAME', '7c4c1df15ff8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/hw_ws/src/cpp_topic/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/hw_ws/src/build/cpp_topic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[8.391558] (cpp_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.391825] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/lib/cpp_topic/talker\n'}
+[8.392804] (cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/hw_ws/src/install/cpp_topic/lib/cpp_topic/talker" to ""\n'}
+[8.392890] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/lib/cpp_topic/listener\n'}
+[8.396574] (cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/hw_ws/src/install/cpp_topic/lib/cpp_topic/listener" to ""\n'}
+[8.397646] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic\n'}
+[8.398676] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic\n'}
+[8.401971] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh\n'}
+[8.402127] (-) TimerEvent: {}
+[8.402292] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv\n'}
+[8.402590] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/environment/path.sh\n'}
+[8.402640] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/environment/path.dsv\n'}
+[8.402679] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/local_setup.bash\n'}
+[8.402910] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/local_setup.sh\n'}
+[8.403240] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/local_setup.zsh\n'}
+[8.404056] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/local_setup.dsv\n'}
+[8.409236] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/package.dsv\n'}
+[8.409452] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic\n'}
+[8.409501] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake\n'}
+[8.409551] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake\n'}
+[8.409587] (cpp_topic) StdoutLine: {'line': b'-- Installing: /hw_ws/src/install/cpp_topic/share/cpp_topic/package.xml\n'}
+[8.421293] (cpp_topic) CommandEnded: {'returncode': 0}
+[8.503569] (-) TimerEvent: {}
+[8.510940] (cpp_topic) JobEnded: {'identifier': 'cpp_topic', 'rc': 0}
+[8.511710] (-) EventReactorShutdown: {}

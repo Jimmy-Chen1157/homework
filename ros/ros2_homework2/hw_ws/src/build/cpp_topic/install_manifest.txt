@@ -1,0 +1,17 @@
+/hw_ws/src/install/cpp_topic/lib/cpp_topic/talker
+/hw_ws/src/install/cpp_topic/lib/cpp_topic/listener
+/hw_ws/src/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+/hw_ws/src/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+/hw_ws/src/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+/hw_ws/src/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+/hw_ws/src/install/cpp_topic/share/cpp_topic/environment/path.sh
+/hw_ws/src/install/cpp_topic/share/cpp_topic/environment/path.dsv
+/hw_ws/src/install/cpp_topic/share/cpp_topic/local_setup.bash
+/hw_ws/src/install/cpp_topic/share/cpp_topic/local_setup.sh
+/hw_ws/src/install/cpp_topic/share/cpp_topic/local_setup.zsh
+/hw_ws/src/install/cpp_topic/share/cpp_topic/local_setup.dsv
+/hw_ws/src/install/cpp_topic/share/cpp_topic/package.dsv
+/hw_ws/src/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+/hw_ws/src/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+/hw_ws/src/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+/hw_ws/src/install/cpp_topic/share/cpp_topic/package.xml

@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.002168] (cpp_topic) JobQueued: {'identifier': 'cpp_topic', 'dependencies': OrderedDict()}
+[0.002284] (cpp_topic) JobStarted: {'identifier': 'cpp_topic'}
+[0.048045] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'cmake'}
+[0.050537] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'build'}
+[0.051954] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/hw_ws/build/cpp_topic', '--', '-j4', '-l4'], 'cwd': '/hw_ws/build/cpp_topic', 'env': OrderedDict([('HOSTNAME', '7c4c1df15ff8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/hw_ws/src/cpp_topic'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/hw_ws/build/cpp_topic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.096955] (-) TimerEvent: {}
+[0.134620] (cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.159288] (cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.173088] (cpp_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.197279] (-) TimerEvent: {}
+[0.298338] (-) TimerEvent: {}
+[0.399595] (-) TimerEvent: {}
+[0.502994] (-) TimerEvent: {}
+[0.604594] (-) TimerEvent: {}
+[0.706620] (-) TimerEvent: {}
+[0.807886] (-) TimerEvent: {}
+[0.909139] (-) TimerEvent: {}
+[1.011581] (-) TimerEvent: {}
+[1.112871] (-) TimerEvent: {}
+[1.215248] (-) TimerEvent: {}
+[1.315756] (-) TimerEvent: {}
+[1.416436] (-) TimerEvent: {}
+[1.518027] (-) TimerEvent: {}
+[1.619838] (-) TimerEvent: {}
+[1.723316] (-) TimerEvent: {}
+[1.824392] (-) TimerEvent: {}
+[1.925288] (-) TimerEvent: {}
+[2.027759] (-) TimerEvent: {}
+[2.136973] (-) TimerEvent: {}
+[2.240320] (-) TimerEvent: {}
+[2.341477] (-) TimerEvent: {}
+[2.442102] (-) TimerEvent: {}
+[2.545501] (-) TimerEvent: {}
+[2.647686] (-) TimerEvent: {}
+[2.761984] (-) TimerEvent: {}
+[2.862669] (-) TimerEvent: {}
+[2.964059] (-) TimerEvent: {}
+[3.067795] (-) TimerEvent: {}
+[3.168505] (-) TimerEvent: {}
+[3.270131] (-) TimerEvent: {}
+[3.382396] (-) TimerEvent: {}
+[3.484780] (-) TimerEvent: {}
+[3.590222] (-) TimerEvent: {}
+[3.699337] (-) TimerEvent: {}
+[3.801955] (-) TimerEvent: {}
+[3.876940] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.877135] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[3.877184] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.877227] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.877268] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.877308] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.877348] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.877387] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.877427] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.877467] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.877507] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.877546] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/hw_ws/src/cpp_topic/src/subscriber_member_function.cpp:3\x1b[m\x1b[K:\n'}
+[3.877584] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/cpp_topic/src/subscriber_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(const Int32&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.877627] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/cpp_topic/src/subscriber_member_function.cpp:20:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg.std_msgs::msg::Int32_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst _data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.877670] (cpp_topic) StderrLine: {'line': b'   20 |       RCLCPP_INFO(this->get_logger(), "I heard: \'%s\'", msg.data.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K());\n'}
+[3.877711] (cpp_topic) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.902156] (-) TimerEvent: {}
+[4.003135] (-) TimerEvent: {}
+[4.140260] (-) TimerEvent: {}
+[4.291491] (-) TimerEvent: {}
+[4.407370] (-) TimerEvent: {}
+[4.528056] (-) TimerEvent: {}
+[4.632418] (-) TimerEvent: {}
+[4.775194] (-) TimerEvent: {}
+[4.889215] (-) TimerEvent: {}
+[5.044413] (-) TimerEvent: {}
+[5.156011] (-) TimerEvent: {}
+[5.259114] (-) TimerEvent: {}
+[5.364894] (-) TimerEvent: {}
+[5.487366] (-) TimerEvent: {}
+[5.587988] (-) TimerEvent: {}
+[5.688868] (-) TimerEvent: {}
+[5.810568] (-) TimerEvent: {}
+[5.918170] (-) TimerEvent: {}
+[6.028428] (-) TimerEvent: {}
+[6.133718] (-) TimerEvent: {}
+[6.239694] (-) TimerEvent: {}
+[6.342564] (-) TimerEvent: {}
+[6.443492] (-) TimerEvent: {}
+[6.552462] (-) TimerEvent: {}
+[6.654640] (-) TimerEvent: {}
+[6.735753] (cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[6.755274] (-) TimerEvent: {}
+[6.856008] (-) TimerEvent: {}
+[6.967171] (-) TimerEvent: {}
+[7.069358] (-) TimerEvent: {}
+[7.139961] (cpp_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[7.140657] (cpp_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[7.141143] (cpp_topic) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[7.147625] (cpp_topic) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[7.149395] (cpp_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.154002] (cpp_topic) CommandEnded: {'returncode': 2}
+[7.169689] (-) TimerEvent: {}
+[7.238285] (cpp_topic) JobEnded: {'identifier': 'cpp_topic', 'rc': 2}
+[7.252511] (-) EventReactorShutdown: {}

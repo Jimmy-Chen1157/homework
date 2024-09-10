@@ -1,0 +1,32 @@
+[0.093s] Invoking command in '/hw_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/cpp_topic -- -j4 -l4
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.280s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.285s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[6.126s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[6.380s] [ 75%] Built target talker
+[8.694s] [100%] [32m[1mLinking CXX executable listener[0m
+[9.099s] [100%] Built target listener
+[9.113s] Invoked command in '/hw_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/cpp_topic -- -j4 -l4
+[9.213s] Invoking command in '/hw_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /hw_ws/build/cpp_topic
+[9.224s] -- Install configuration: ""
+[9.224s] -- Installing: /hw_ws/install/cpp_topic/lib/cpp_topic/talker
+[9.224s] -- Set runtime path of "/hw_ws/install/cpp_topic/lib/cpp_topic/talker" to ""
+[9.224s] -- Installing: /hw_ws/install/cpp_topic/lib/cpp_topic/listener
+[9.227s] -- Set runtime path of "/hw_ws/install/cpp_topic/lib/cpp_topic/listener" to ""
+[9.228s] -- Installing: /hw_ws/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+[9.228s] -- Installing: /hw_ws/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+[9.228s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+[9.229s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+[9.229s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/environment/path.sh
+[9.229s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/environment/path.dsv
+[9.230s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/local_setup.bash
+[9.230s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/local_setup.sh
+[9.231s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/local_setup.zsh
+[9.231s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/local_setup.dsv
+[9.232s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/package.dsv
+[9.236s] -- Installing: /hw_ws/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+[9.238s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+[9.238s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+[9.239s] -- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/package.xml
+[9.241s] Invoked command in '/hw_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /hw_ws/build/cpp_topic

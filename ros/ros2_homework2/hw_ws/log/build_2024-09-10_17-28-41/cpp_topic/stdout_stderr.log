@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /hw_ws/install/cpp_topic/lib/cpp_topic/talker
+-- Set runtime path of "/hw_ws/install/cpp_topic/lib/cpp_topic/talker" to ""
+-- Installing: /hw_ws/install/cpp_topic/lib/cpp_topic/listener
+-- Set runtime path of "/hw_ws/install/cpp_topic/lib/cpp_topic/listener" to ""
+-- Installing: /hw_ws/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+-- Installing: /hw_ws/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/environment/path.sh
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/environment/path.dsv
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/local_setup.bash
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/local_setup.sh
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/local_setup.zsh
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/local_setup.dsv
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/package.dsv
+-- Installing: /hw_ws/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+-- Installing: /hw_ws/install/cpp_topic/share/cpp_topic/package.xml

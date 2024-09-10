@@ -1,0 +1,27 @@
+[0.062s] Invoking command in '/hw_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/cpp_topic -- -j4 -l4
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.157s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.171s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.875s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[3.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.875s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[3.875s]                  from [01m[K/hw_ws/src/cpp_topic/src/subscriber_member_function.cpp:3[m[K:
+[3.875s] [01m[K/hw_ws/src/cpp_topic/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Int32&) const[m[K’:
+[3.875s] [01m[K/hw_ws/src/cpp_topic/src/subscriber_member_function.cpp:20:65:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.std_msgs::msg::Int32_<std::allocator<void> >::data[m[K’, which is of non-class type ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst int[m[K’}
+[3.875s]    20 |       RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.[01;31m[Kc_str[m[K());
+[3.875s]       |                                                                 [01;31m[K^~~~~[m[K
+[6.734s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[7.138s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[7.139s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[7.139s] gmake[1]: *** Waiting for unfinished jobs....
+[7.145s] [ 75%] Built target talker
+[7.147s] gmake: *** [Makefile:146: all] Error 2
+[7.152s] Invoked command in '/hw_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/cpp_topic -- -j4 -l4
