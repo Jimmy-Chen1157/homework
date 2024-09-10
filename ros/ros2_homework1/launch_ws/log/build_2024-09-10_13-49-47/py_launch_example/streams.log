@@ -1,0 +1,23 @@
+[0.825s] Invoking command in '/launch_ws/src/py_launch_example': PYTHONPATH=/launch_ws/build/py_launch_example/prefix_override:/launch_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /launch_ws/build/py_launch_example/build install --record /launch_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
+[1.062s] running egg_info
+[1.063s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[1.066s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[1.066s] writing entry points to ../../build/py_launch_example/py_launch_example.egg-info/entry_points.txt
+[1.066s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[1.066s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[1.071s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[1.071s] adding license file 'LICENSE'
+[1.071s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[1.071s] running build
+[1.071s] running build_py
+[1.074s] running install
+[1.075s] running install_lib
+[1.075s] running install_data
+[1.075s] copying package.xml -> /launch_ws/install/py_launch_example/share/py_launch_example
+[1.088s] copying launch/my_script_launch.py -> /launch_ws/install/py_launch_example/share/py_launch_example/launch
+[1.088s] running install_egg_info
+[1.088s] removing '/launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info' (and everything under it)
+[1.088s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info
+[1.088s] running install_scripts
+[1.122s] writing list of installed files to '/launch_ws/build/py_launch_example/install.log'
+[1.161s] Invoked command in '/launch_ws/src/py_launch_example' returned '0': PYTHONPATH=/launch_ws/build/py_launch_example/prefix_override:/launch_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /launch_ws/build/py_launch_example/build install --record /launch_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
