@@ -1,0 +1,238 @@
+[0.000000] (-) TimerEvent: {}
+[0.000283] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000328] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000414] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000440] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.009074] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.009131] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.009759] (action_tutorials_cpp) JobQueued: {'identifier': 'action_tutorials_cpp', 'dependencies': OrderedDict([('action_tutorials_interfaces', '/ros2_ws/install/action_tutorials_interfaces')])}
+[0.009821] (action_tutorials_cpp) JobStarted: {'identifier': 'action_tutorials_cpp'}
+[0.054843] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'cmake'}
+[0.055701] (action_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/action_tutorials_cpp', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/action_tutorials_cpp'], 'cwd': '/ros2_ws/build/action_tutorials_cpp', 'env': OrderedDict([('HOSTNAME', '32cf1ba095d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/action_tutorials_interfaces/lib:/ros2_ws/install/tutorial_interfaces/lib:/ros2_ws/install/more_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src/action_tutorials_cpp'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/ros2_ws/install/action_tutorials_interfaces:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/ros2_ws/build/action_tutorials_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/action_tutorials_interfaces:/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/opt/ros/iron')]), 'shell': False}
+[0.096759] (-) TimerEvent: {}
+[0.197972] (-) TimerEvent: {}
+[0.307205] (-) TimerEvent: {}
+[0.408669] (-) TimerEvent: {}
+[0.570900] (-) TimerEvent: {}
+[0.668448] (action_tutorials_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.671645] (-) TimerEvent: {}
+[0.773970] (-) TimerEvent: {}
+[0.874597] (-) TimerEvent: {}
+[0.975084] (-) TimerEvent: {}
+[0.995861] (action_tutorials_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.010735] (action_tutorials_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.075888] (-) TimerEvent: {}
+[1.176947] (-) TimerEvent: {}
+[1.191779] (action_tutorials_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.197843] (action_tutorials_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.198018] (action_tutorials_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.198131] (action_tutorials_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.203239] (action_tutorials_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.278266] (-) TimerEvent: {}
+[1.378929] (-) TimerEvent: {}
+[1.412796] (action_tutorials_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.421732] (action_tutorials_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.421894] (action_tutorials_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.422738] (action_tutorials_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.446782] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[1.480598] (-) TimerEvent: {}
+[1.584003] (-) TimerEvent: {}
+[1.685041] (-) TimerEvent: {}
+[1.743161] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.785493] (-) TimerEvent: {}
+[1.888066] (-) TimerEvent: {}
+[1.929233] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.0.0 (/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)\n'}
+[2.019825] (-) TimerEvent: {}
+[2.022757] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[2.052386] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[2.092240] (action_tutorials_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.120545] (-) TimerEvent: {}
+[2.134531] (action_tutorials_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.221298] (-) TimerEvent: {}
+[2.323707] (-) TimerEvent: {}
+[2.424854] (-) TimerEvent: {}
+[2.526742] (-) TimerEvent: {}
+[2.580032] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[2.627083] (-) TimerEvent: {}
+[2.728004] (-) TimerEvent: {}
+[2.832725] (-) TimerEvent: {}
+[2.935047] (-) TimerEvent: {}
+[3.049568] (-) TimerEvent: {}
+[3.079248] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[3.097386] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.150992] (-) TimerEvent: {}
+[3.252757] (-) TimerEvent: {}
+[3.354119] (-) TimerEvent: {}
+[3.455748] (-) TimerEvent: {}
+[3.561904] (-) TimerEvent: {}
+[3.664634] (-) TimerEvent: {}
+[3.746038] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.765411] (-) TimerEvent: {}
+[3.809772] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[3.865699] (-) TimerEvent: {}
+[3.896987] (action_tutorials_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.966265] (-) TimerEvent: {}
+[4.067015] (-) TimerEvent: {}
+[4.167698] (-) TimerEvent: {}
+[4.237929] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp_action: 21.0.5 (/opt/ros/iron/share/rclcpp_action/cmake)\n'}
+[4.267881] (-) TimerEvent: {}
+[4.318217] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)\n'}
+[4.368637] (-) TimerEvent: {}
+[4.469699] (-) TimerEvent: {}
+[4.572715] (-) TimerEvent: {}
+[4.589816] (action_tutorials_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[4.673186] (-) TimerEvent: {}
+[4.773967] (-) TimerEvent: {}
+[4.876658] (-) TimerEvent: {}
+[4.941757] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.941934] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/action_tutorials_cpp/include>\n'}
+[4.941987] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.945242] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.947825] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.947986] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.948873] (action_tutorials_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.953774] (action_tutorials_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.977152] (-) TimerEvent: {}
+[5.011693] (action_tutorials_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[5.015808] (action_tutorials_cpp) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/action_tutorials_cpp\n'}
+[5.034178] (action_tutorials_cpp) CommandEnded: {'returncode': 0}
+[5.035472] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'build'}
+[5.035565] (action_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/action_tutorials_cpp', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/build/action_tutorials_cpp', 'env': OrderedDict([('HOSTNAME', '32cf1ba095d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/action_tutorials_interfaces/lib:/ros2_ws/install/tutorial_interfaces/lib:/ros2_ws/install/more_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src/action_tutorials_cpp'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/ros2_ws/install/action_tutorials_interfaces:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/ros2_ws/build/action_tutorials_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/action_tutorials_interfaces:/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/opt/ros/iron')]), 'shell': False}
+[5.077884] (-) TimerEvent: {}
+[5.172013] (action_tutorials_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o\x1b[0m\n'}
+[5.172198] (action_tutorials_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o\x1b[0m\n'}
+[5.181261] (-) TimerEvent: {}
+[5.362312] (-) TimerEvent: {}
+[5.487091] (-) TimerEvent: {}
+[5.589630] (-) TimerEvent: {}
+[5.690730] (-) TimerEvent: {}
+[5.795678] (-) TimerEvent: {}
+[5.899984] (-) TimerEvent: {}
+[6.005343] (-) TimerEvent: {}
+[6.118607] (-) TimerEvent: {}
+[6.371504] (-) TimerEvent: {}
+[6.473679] (-) TimerEvent: {}
+[6.575372] (-) TimerEvent: {}
+[6.676691] (-) TimerEvent: {}
+[7.800789] (-) TimerEvent: {}
+[8.519104] (-) TimerEvent: {}
+[8.632275] (-) TimerEvent: {}
+[8.739925] (-) TimerEvent: {}
+[8.846853] (-) TimerEvent: {}
+[8.952042] (-) TimerEvent: {}
+[9.055631] (-) TimerEvent: {}
+[9.160755] (-) TimerEvent: {}
+[9.263161] (-) TimerEvent: {}
+[9.367964] (-) TimerEvent: {}
+[9.468807] (-) TimerEvent: {}
+[9.570850] (-) TimerEvent: {}
+[9.673222] (-) TimerEvent: {}
+[9.777836] (-) TimerEvent: {}
+[9.881873] (-) TimerEvent: {}
+[9.983063] (-) TimerEvent: {}
+[10.084374] (-) TimerEvent: {}
+[10.188668] (-) TimerEvent: {}
+[10.289683] (-) TimerEvent: {}
+[10.394641] (-) TimerEvent: {}
+[10.497046] (-) TimerEvent: {}
+[10.600639] (-) TimerEvent: {}
+[10.702620] (-) TimerEvent: {}
+[10.804673] (-) TimerEvent: {}
+[10.907567] (-) TimerEvent: {}
+[11.010681] (-) TimerEvent: {}
+[11.118100] (-) TimerEvent: {}
+[11.222214] (-) TimerEvent: {}
+[11.335117] (-) TimerEvent: {}
+[11.437741] (-) TimerEvent: {}
+[11.539777] (-) TimerEvent: {}
+[11.640965] (-) TimerEvent: {}
+[11.741899] (-) TimerEvent: {}
+[11.844220] (-) TimerEvent: {}
+[11.947647] (-) TimerEvent: {}
+[12.049839] (-) TimerEvent: {}
+[12.153671] (-) TimerEvent: {}
+[12.255106] (-) TimerEvent: {}
+[12.356322] (-) TimerEvent: {}
+[12.457847] (-) TimerEvent: {}
+[12.561159] (-) TimerEvent: {}
+[12.667204] (-) TimerEvent: {}
+[12.770615] (-) TimerEvent: {}
+[12.871937] (-) TimerEvent: {}
+[12.976382] (-) TimerEvent: {}
+[13.077833] (-) TimerEvent: {}
+[13.180241] (-) TimerEvent: {}
+[13.282584] (-) TimerEvent: {}
+[13.383339] (-) TimerEvent: {}
+[13.487901] (-) TimerEvent: {}
+[13.590676] (-) TimerEvent: {}
+[13.699757] (-) TimerEvent: {}
+[13.808853] (-) TimerEvent: {}
+[13.914627] (-) TimerEvent: {}
+[14.022644] (-) TimerEvent: {}
+[14.123776] (-) TimerEvent: {}
+[14.227624] (-) TimerEvent: {}
+[14.330213] (-) TimerEvent: {}
+[14.435948] (-) TimerEvent: {}
+[14.540854] (-) TimerEvent: {}
+[14.642904] (-) TimerEvent: {}
+[14.744610] (-) TimerEvent: {}
+[14.846234] (-) TimerEvent: {}
+[14.949682] (-) TimerEvent: {}
+[15.053587] (-) TimerEvent: {}
+[15.154760] (-) TimerEvent: {}
+[15.260055] (-) TimerEvent: {}
+[15.361659] (-) TimerEvent: {}
+[15.462713] (-) TimerEvent: {}
+[15.565829] (-) TimerEvent: {}
+[15.667647] (-) TimerEvent: {}
+[15.707744] (action_tutorials_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable fibonacci_action_server\x1b[0m\n'}
+[15.770237] (-) TimerEvent: {}
+[15.875438] (-) TimerEvent: {}
+[15.976258] (-) TimerEvent: {}
+[16.076968] (-) TimerEvent: {}
+[16.174198] (action_tutorials_cpp) StdoutLine: {'line': b'[ 75%] Built target fibonacci_action_server\n'}
+[16.180387] (-) TimerEvent: {}
+[16.284726] (-) TimerEvent: {}
+[16.386571] (-) TimerEvent: {}
+[16.487284] (-) TimerEvent: {}
+[16.589587] (-) TimerEvent: {}
+[16.690627] (-) TimerEvent: {}
+[16.792672] (-) TimerEvent: {}
+[16.895741] (-) TimerEvent: {}
+[16.996834] (-) TimerEvent: {}
+[17.097295] (-) TimerEvent: {}
+[17.197814] (-) TimerEvent: {}
+[17.241668] (action_tutorials_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libaction_server.so\x1b[0m\n'}
+[17.298279] (-) TimerEvent: {}
+[17.488389] (-) TimerEvent: {}
+[17.533302] (action_tutorials_cpp) StdoutLine: {'line': b'[100%] Built target action_server\n'}
+[17.552715] (action_tutorials_cpp) CommandEnded: {'returncode': 0}
+[17.601822] (-) TimerEvent: {}
+[17.673204] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'install'}
+[17.689275] (action_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/action_tutorials_cpp'], 'cwd': '/ros2_ws/build/action_tutorials_cpp', 'env': OrderedDict([('HOSTNAME', '32cf1ba095d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/action_tutorials_interfaces/lib:/ros2_ws/install/tutorial_interfaces/lib:/ros2_ws/install/more_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src/action_tutorials_cpp'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/ros2_ws/install/action_tutorials_interfaces:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/ros2_ws/build/action_tutorials_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/action_tutorials_interfaces:/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/opt/ros/iron')]), 'shell': False}
+[17.702878] (-) TimerEvent: {}
+[17.703766] (action_tutorials_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.707707] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server\n'}
+[17.709218] (action_tutorials_cpp) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server" to ""\n'}
+[17.711294] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so\n'}
+[17.711785] (action_tutorials_cpp) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so" to ""\n'}
+[17.712976] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp\n'}
+[17.713657] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp\n'}
+[17.714090] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh\n'}
+[17.715514] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv\n'}
+[17.715962] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh\n'}
+[17.716252] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv\n'}
+[17.716776] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash\n'}
+[17.716877] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh\n'}
+[17.717137] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh\n'}
+[17.718152] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv\n'}
+[17.718594] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv\n'}
+[17.719099] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp\n'}
+[17.719197] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp\n'}
+[17.720729] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake\n'}
+[17.720929] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake\n'}
+[17.721441] (action_tutorials_cpp) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml\n'}
+[17.732064] (action_tutorials_cpp) CommandEnded: {'returncode': 0}
+[17.803107] (-) TimerEvent: {}
+[17.878060] (action_tutorials_cpp) JobEnded: {'identifier': 'action_tutorials_cpp', 'rc': 0}
+[17.879368] (-) EventReactorShutdown: {}

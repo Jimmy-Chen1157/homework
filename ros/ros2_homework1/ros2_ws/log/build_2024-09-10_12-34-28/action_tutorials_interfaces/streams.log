@@ -1,0 +1,30 @@
+[0.071s] Invoking command in '/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/action_tutorials_interfaces
+[0.816s] -- The C compiler identification is GNU 11.4.0
+[1.292s] -- The CXX compiler identification is GNU 11.4.0
+[1.358s] -- Detecting C compiler ABI info
+[1.577s] -- Detecting C compiler ABI info - done
+[1.586s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.590s] -- Detecting C compile features
+[1.593s] -- Detecting C compile features - done
+[1.601s] -- Detecting CXX compiler ABI info
+[1.796s] -- Detecting CXX compiler ABI info - done
+[1.838s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.838s] -- Detecting CXX compile features
+[1.839s] -- Detecting CXX compile features - done
+[1.873s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.182s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.471s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[2.494s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.847s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[2.865s] [31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[2.865s]   rosidl_generate_interfaces() the passed file 'action/Fibonacci.action'
+[2.865s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.865s]   '/ros2_ws/src/action_tutorials_interfaces'
+[2.865s] Call Stack (most recent call first):
+[2.865s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[2.865s] 
+[2.865s] [0m
+[2.865s] -- Configuring incomplete, errors occurred!
+[2.865s] See also "/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/CMakeOutput.log".
+[2.874s] Invoked command in '/ros2_ws/build/action_tutorials_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/action_tutorials_interfaces

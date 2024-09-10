@@ -1,0 +1,71 @@
+[0.049s] Invoking command in '/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/ros2_ws/install/action_tutorials_interfaces:/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/opt/ros/iron LD_LIBRARY_PATH=/ros2_ws/install/action_tutorials_interfaces/lib:/ros2_ws/install/tutorial_interfaces/lib:/ros2_ws/install/more_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/ros2_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/action_tutorials_cpp
+[0.659s] -- The C compiler identification is GNU 11.4.0
+[0.986s] -- The CXX compiler identification is GNU 11.4.0
+[1.001s] -- Detecting C compiler ABI info
+[1.182s] -- Detecting C compiler ABI info - done
+[1.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.188s] -- Detecting C compile features
+[1.188s] -- Detecting C compile features - done
+[1.194s] -- Detecting CXX compiler ABI info
+[1.403s] -- Detecting CXX compiler ABI info - done
+[1.412s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.412s] -- Detecting CXX compile features
+[1.413s] -- Detecting CXX compile features - done
+[1.437s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.734s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.920s] -- Found action_tutorials_interfaces: 0.0.0 (/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[2.013s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.043s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.083s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.125s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.570s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[3.070s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.088s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.736s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.800s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.887s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.228s] -- Found rclcpp_action: 21.0.5 (/opt/ros/iron/share/rclcpp_action/cmake)
+[4.309s] -- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)
+[4.580s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.932s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.932s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/action_tutorials_cpp/include>
+[4.932s] -- Configured cppcheck exclude dirs and/or files: 
+[4.936s] -- Added test 'lint_cmake' to check CMake code style
+[4.938s] -- Added test 'uncrustify' to check C / C++ code style
+[4.938s] -- Configured uncrustify additional arguments: 
+[4.939s] -- Added test 'xmllint' to check XML markup files
+[4.944s] -- Configuring done
+[5.002s] -- Generating done
+[5.006s] -- Build files have been written to: /ros2_ws/build/action_tutorials_cpp
+[5.025s] Invoked command in '/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/action_tutorials_interfaces:/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/opt/ros/iron LD_LIBRARY_PATH=/ros2_ws/install/action_tutorials_interfaces/lib:/ros2_ws/install/tutorial_interfaces/lib:/ros2_ws/install/more_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/ros2_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/action_tutorials_cpp
+[5.026s] Invoking command in '/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/ros2_ws/install/action_tutorials_interfaces:/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/opt/ros/iron LD_LIBRARY_PATH=/ros2_ws/install/action_tutorials_interfaces/lib:/ros2_ws/install/tutorial_interfaces/lib:/ros2_ws/install/more_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/ros2_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /ros2_ws/build/action_tutorials_cpp -- -j4 -l4
+[5.162s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[5.162s] [ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[15.698s] [ 75%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[16.164s] [ 75%] Built target fibonacci_action_server
+[17.232s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[17.524s] [100%] Built target action_server
+[17.543s] Invoked command in '/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/action_tutorials_interfaces:/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/opt/ros/iron LD_LIBRARY_PATH=/ros2_ws/install/action_tutorials_interfaces/lib:/ros2_ws/install/tutorial_interfaces/lib:/ros2_ws/install/more_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/ros2_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /ros2_ws/build/action_tutorials_cpp -- -j4 -l4
+[17.680s] Invoking command in '/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/ros2_ws/install/action_tutorials_interfaces:/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/opt/ros/iron LD_LIBRARY_PATH=/ros2_ws/install/action_tutorials_interfaces/lib:/ros2_ws/install/tutorial_interfaces/lib:/ros2_ws/install/more_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/ros2_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /ros2_ws/build/action_tutorials_cpp
+[17.694s] -- Install configuration: ""
+[17.698s] -- Installing: /ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+[17.699s] -- Set runtime path of "/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server" to ""
+[17.702s] -- Installing: /ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so
+[17.702s] -- Set runtime path of "/ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so" to ""
+[17.703s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[17.704s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[17.704s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[17.706s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[17.706s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[17.706s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[17.707s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[17.707s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[17.707s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[17.708s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[17.709s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[17.709s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[17.709s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[17.711s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[17.711s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[17.712s] -- Installing: /ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[17.722s] Invoked command in '/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/action_tutorials_interfaces:/ros2_ws/install/cpp_pubsub:/ros2_ws/install/tutorial_interfaces:/ros2_ws/install/more_interfaces:/ros2_ws/install/cpp_srvcli:/ros2_ws/install/cpp_parameters:/opt/ros/iron LD_LIBRARY_PATH=/ros2_ws/install/action_tutorials_interfaces/lib:/ros2_ws/install/tutorial_interfaces/lib:/ros2_ws/install/more_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/ros2_ws/install/action_tutorials_interfaces/lib/python3.10/site-packages:/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /ros2_ws/build/action_tutorials_cpp

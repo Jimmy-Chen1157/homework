@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.001977] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002093] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.002111] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002123] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002143] (cpp_parameters) JobQueued: {'identifier': 'cpp_parameters', 'dependencies': OrderedDict()}
+[0.002160] (cpp_parameters) JobStarted: {'identifier': 'cpp_parameters'}
+[0.029185] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'cmake'}
+[0.029862] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'build'}
+[0.032435] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/cpp_parameters', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/build/cpp_parameters', 'env': OrderedDict([('HOSTNAME', 'db173c14b81b'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src/cpp_parameters'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/ros2_ws/build/cpp_parameters'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.076506] (cpp_parameters) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.103624] (-) TimerEvent: {}
+[0.206857] (-) TimerEvent: {}
+[0.239283] (cpp_parameters) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.276982] (cpp_parameters) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.282811] (cpp_parameters) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.293724] (cpp_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.307696] (cpp_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.307816] (-) TimerEvent: {}
+[0.408667] (-) TimerEvent: {}
+[0.462768] (cpp_parameters) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.463687] (cpp_parameters) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.508879] (-) TimerEvent: {}
+[0.603624] (cpp_parameters) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.609905] (-) TimerEvent: {}
+[0.710649] (-) TimerEvent: {}
+[0.760991] (cpp_parameters) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[0.815308] (-) TimerEvent: {}
+[0.851991] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.852817] (cpp_parameters) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.852874] (cpp_parameters) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.853026] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.853084] (cpp_parameters) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[0.853129] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.853174] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.853220] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.855675] (cpp_parameters) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.856014] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.878482] (cpp_parameters) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.878669] (cpp_parameters) StdoutLine: {'line': b'-- Generating done\n'}
+[0.878947] (cpp_parameters) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/cpp_parameters\n'}
+[0.908781] (cpp_parameters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target minimal_param_node\x1b[0m\n'}
+[0.915969] (-) TimerEvent: {}
+[0.943283] (cpp_parameters) StdoutLine: {'line': b'[100%] Built target minimal_param_node\n'}
+[0.957699] (cpp_parameters) CommandEnded: {'returncode': 0}
+[1.010233] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'install'}
+[1.016161] (-) TimerEvent: {}
+[1.027747] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/cpp_parameters'], 'cwd': '/ros2_ws/build/cpp_parameters', 'env': OrderedDict([('HOSTNAME', 'db173c14b81b'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws/src/cpp_parameters'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/ros2_ws/build/cpp_parameters'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.032681] (cpp_parameters) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.033225] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node\n'}
+[1.046220] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_parameters/share/cpp_parameters/launch\n'}
+[1.046859] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py\n'}
+[1.047071] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters\n'}
+[1.051016] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters\n'}
+[1.054305] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh\n'}
+[1.056908] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv\n'}
+[1.060610] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh\n'}
+[1.064230] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv\n'}
+[1.067072] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash\n'}
+[1.069918] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh\n'}
+[1.073313] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh\n'}
+[1.075987] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv\n'}
+[1.079259] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv\n'}
+[1.079344] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters\n'}
+[1.079781] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake\n'}
+[1.083309] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake\n'}
+[1.091039] (cpp_parameters) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/cpp_parameters/share/cpp_parameters/package.xml\n'}
+[1.098452] (cpp_parameters) CommandEnded: {'returncode': 0}
+[1.117086] (-) TimerEvent: {}
+[1.211260] (cpp_parameters) JobEnded: {'identifier': 'cpp_parameters', 'rc': 0}
+[1.214789] (-) EventReactorShutdown: {}

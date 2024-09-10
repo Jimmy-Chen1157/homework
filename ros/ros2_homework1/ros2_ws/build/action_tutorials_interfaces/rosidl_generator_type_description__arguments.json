@@ -1,0 +1,13 @@
+{
+  "package_name": "action_tutorials_interfaces",
+  "output_dir": "/ros2_ws/build/action_tutorials_interfaces/rosidl_generator_type_description/action_tutorials_interfaces",
+  "idl_tuples": [
+    "/ros2_ws/build/action_tutorials_interfaces/rosidl_adapter/action_tutorials_interfaces:action/Fibonacci.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/iron/share/service_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "action_msgs:/opt/ros/iron/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/iron/share/unique_identifier_msgs"
+  ]
+}
