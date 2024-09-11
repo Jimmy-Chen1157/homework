@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target stroke_to_pwm_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o[0m
+[ 50%] Built target talker
+[ 83%] Built target motor_node
+[100%] [32m[1mLinking CXX executable stroke_to_pwm_node[0m
+[100%] Built target stroke_to_pwm_node
+-- Install configuration: ""
+-- Installing: /hw_ws/install/raceteam_hw/lib/raceteam_hw/motor_node
+-- Set runtime path of "/hw_ws/install/raceteam_hw/lib/raceteam_hw/motor_node" to ""
+-- Installing: /hw_ws/install/raceteam_hw/lib/raceteam_hw/stroke_to_pwm_node
+-- Set runtime path of "/hw_ws/install/raceteam_hw/lib/raceteam_hw/stroke_to_pwm_node" to ""
+-- Installing: /hw_ws/install/raceteam_hw/lib/raceteam_hw/talker
+-- Set runtime path of "/hw_ws/install/raceteam_hw/lib/raceteam_hw/talker" to ""
+-- Installing: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/package_run_dependencies/raceteam_hw
+-- Installing: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/parent_prefix_path/raceteam_hw
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/ament_prefix_path.sh
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/ament_prefix_path.dsv
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/path.sh
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/path.dsv
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.bash
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.sh
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.zsh
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.dsv
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/package.dsv
+-- Installing: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/packages/raceteam_hw
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/cmake/raceteam_hwConfig.cmake
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/cmake/raceteam_hwConfig-version.cmake
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/package.xml

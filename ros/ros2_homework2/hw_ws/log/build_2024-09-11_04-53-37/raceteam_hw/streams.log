@@ -1,0 +1,32 @@
+[0.057s] Invoking command in '/hw_ws/build/raceteam_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/raceteam_hw -- -j4 -l4
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target stroke_to_pwm_node[0m
+[0.273s] [ 16%] [32mBuilding CXX object CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o[0m
+[0.287s] [ 50%] Built target talker
+[0.297s] [ 83%] Built target motor_node
+[9.036s] [100%] [32m[1mLinking CXX executable stroke_to_pwm_node[0m
+[9.472s] [100%] Built target stroke_to_pwm_node
+[9.554s] Invoked command in '/hw_ws/build/raceteam_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/raceteam_hw -- -j4 -l4
+[9.767s] Invoking command in '/hw_ws/build/raceteam_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /hw_ws/build/raceteam_hw
+[9.793s] -- Install configuration: ""
+[9.794s] -- Installing: /hw_ws/install/raceteam_hw/lib/raceteam_hw/motor_node
+[9.801s] -- Set runtime path of "/hw_ws/install/raceteam_hw/lib/raceteam_hw/motor_node" to ""
+[9.801s] -- Installing: /hw_ws/install/raceteam_hw/lib/raceteam_hw/stroke_to_pwm_node
+[9.807s] -- Set runtime path of "/hw_ws/install/raceteam_hw/lib/raceteam_hw/stroke_to_pwm_node" to ""
+[9.807s] -- Installing: /hw_ws/install/raceteam_hw/lib/raceteam_hw/talker
+[9.835s] -- Set runtime path of "/hw_ws/install/raceteam_hw/lib/raceteam_hw/talker" to ""
+[9.835s] -- Installing: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/package_run_dependencies/raceteam_hw
+[9.839s] -- Installing: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/parent_prefix_path/raceteam_hw
+[9.840s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/ament_prefix_path.sh
+[9.840s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/ament_prefix_path.dsv
+[9.840s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/path.sh
+[9.840s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/path.dsv
+[9.840s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.bash
+[9.841s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.sh
+[9.841s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.zsh
+[9.841s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.dsv
+[9.841s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/package.dsv
+[9.841s] -- Installing: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/packages/raceteam_hw
+[9.842s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/cmake/raceteam_hwConfig.cmake
+[9.842s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/cmake/raceteam_hwConfig-version.cmake
+[9.842s] -- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/package.xml
+[9.842s] Invoked command in '/hw_ws/build/raceteam_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /hw_ws/build/raceteam_hw

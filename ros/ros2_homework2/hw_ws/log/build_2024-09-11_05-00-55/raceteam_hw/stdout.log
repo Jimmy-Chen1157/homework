@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target stroke_to_pwm_node[0m
+[ 33%] Built target motor_node
+[ 66%] Built target talker
+[ 83%] [32mBuilding CXX object CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable stroke_to_pwm_node[0m
+[100%] Built target stroke_to_pwm_node
+-- Install configuration: ""
+-- Up-to-date: /hw_ws/install/raceteam_hw/lib/raceteam_hw/motor_node
+-- Installing: /hw_ws/install/raceteam_hw/lib/raceteam_hw/stroke_to_pwm_node
+-- Set runtime path of "/hw_ws/install/raceteam_hw/lib/raceteam_hw/stroke_to_pwm_node" to ""
+-- Up-to-date: /hw_ws/install/raceteam_hw/lib/raceteam_hw/talker
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/package_run_dependencies/raceteam_hw
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/parent_prefix_path/raceteam_hw
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/ament_prefix_path.sh
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/ament_prefix_path.dsv
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/path.sh
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/path.dsv
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.bash
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.sh
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.zsh
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.dsv
+-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/package.dsv
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/packages/raceteam_hw
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/raceteam_hw/cmake/raceteam_hwConfig.cmake
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/raceteam_hw/cmake/raceteam_hwConfig-version.cmake
+-- Up-to-date: /hw_ws/install/raceteam_hw/share/raceteam_hw/package.xml

@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.004026] (-) JobUnselected: {'identifier': 'cpp_topic'}
+[0.004228] (raceteam_hw) JobQueued: {'identifier': 'raceteam_hw', 'dependencies': OrderedDict()}
+[0.004249] (raceteam_hw) JobStarted: {'identifier': 'raceteam_hw'}
+[0.100002] (-) TimerEvent: {}
+[0.110476] (raceteam_hw) JobProgress: {'identifier': 'raceteam_hw', 'progress': 'cmake'}
+[0.110791] (raceteam_hw) Command: {'cmd': ['/usr/bin/cmake', '/hw_ws/src/raceteam_softwareHW_2023', '-DCMAKE_INSTALL_PREFIX=/hw_ws/install/raceteam_hw'], 'cwd': '/hw_ws/build/raceteam_hw', 'env': OrderedDict([('HOSTNAME', '65db7f20d1dc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/hw_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/hw_ws/install'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/hw_ws/install/cpp_topic:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/hw_ws/build/raceteam_hw'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/hw_ws/install/cpp_topic:/opt/ros/iron')]), 'shell': False}
+[0.201942] (-) TimerEvent: {}
+[0.324780] (-) TimerEvent: {}
+[0.425868] (-) TimerEvent: {}
+[0.526648] (-) TimerEvent: {}
+[0.628114] (-) TimerEvent: {}
+[0.732194] (-) TimerEvent: {}
+[0.848994] (-) TimerEvent: {}
+[0.952014] (-) TimerEvent: {}
+[1.052899] (raceteam_hw) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.053271] (-) TimerEvent: {}
+[1.154196] (-) TimerEvent: {}
+[1.255658] (-) TimerEvent: {}
+[1.361851] (-) TimerEvent: {}
+[1.439287] (raceteam_hw) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.462254] (-) TimerEvent: {}
+[1.470007] (raceteam_hw) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.565618] (-) TimerEvent: {}
+[1.669213] (-) TimerEvent: {}
+[1.759460] (raceteam_hw) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.767062] (raceteam_hw) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.768885] (raceteam_hw) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.769362] (-) TimerEvent: {}
+[1.771966] (raceteam_hw) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.781627] (raceteam_hw) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.870666] (-) TimerEvent: {}
+[1.974043] (raceteam_hw) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.974416] (-) TimerEvent: {}
+[2.006490] (raceteam_hw) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.015397] (raceteam_hw) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.015796] (raceteam_hw) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.015867] (raceteam_hw) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[2.076341] (-) TimerEvent: {}
+[2.181113] (-) TimerEvent: {}
+[2.289080] (-) TimerEvent: {}
+[2.339416] (raceteam_hw) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.396526] (-) TimerEvent: {}
+[2.498136] (-) TimerEvent: {}
+[2.598629] (raceteam_hw) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[2.598788] (-) TimerEvent: {}
+[2.699889] (-) TimerEvent: {}
+[2.800575] (-) TimerEvent: {}
+[2.866223] (raceteam_hw) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[2.899473] (raceteam_hw) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[2.901020] (-) TimerEvent: {}
+[3.001863] (-) TimerEvent: {}
+[3.064200] (raceteam_hw) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.102880] (-) TimerEvent: {}
+[3.145921] (raceteam_hw) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.203282] (-) TimerEvent: {}
+[3.304153] (-) TimerEvent: {}
+[3.415399] (-) TimerEvent: {}
+[3.516781] (-) TimerEvent: {}
+[3.562161] (raceteam_hw) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[3.575112] (raceteam_hw) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.617147] (-) TimerEvent: {}
+[3.719989] (-) TimerEvent: {}
+[3.821973] (-) TimerEvent: {}
+[3.935019] (-) TimerEvent: {}
+[4.036962] (-) TimerEvent: {}
+[4.098920] (raceteam_hw) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.137365] (raceteam_hw) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[4.137860] (-) TimerEvent: {}
+[4.214464] (raceteam_hw) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.239997] (-) TimerEvent: {}
+[4.341965] (-) TimerEvent: {}
+[4.443962] (-) TimerEvent: {}
+[4.537211] (raceteam_hw) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[4.545085] (-) TimerEvent: {}
+[4.627557] (raceteam_hw) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[4.646507] (-) TimerEvent: {}
+[4.747213] (-) TimerEvent: {}
+[4.836660] (raceteam_hw) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.837060] (raceteam_hw) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.837116] (raceteam_hw) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.840380] (raceteam_hw) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.846905] (raceteam_hw) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.847023] (raceteam_hw) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.847409] (-) TimerEvent: {}
+[4.848690] (raceteam_hw) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.855367] (raceteam_hw) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.901876] (raceteam_hw) StdoutLine: {'line': b'-- Generating done\n'}
+[4.903420] (raceteam_hw) StdoutLine: {'line': b'-- Build files have been written to: /hw_ws/build/raceteam_hw\n'}
+[4.920487] (raceteam_hw) CommandEnded: {'returncode': 0}
+[4.921115] (raceteam_hw) JobProgress: {'identifier': 'raceteam_hw', 'progress': 'build'}
+[4.921197] (raceteam_hw) Command: {'cmd': ['/usr/bin/cmake', '--build', '/hw_ws/build/raceteam_hw', '--', '-j4', '-l4'], 'cwd': '/hw_ws/build/raceteam_hw', 'env': OrderedDict([('HOSTNAME', '65db7f20d1dc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/hw_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/hw_ws/install'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/hw_ws/install/cpp_topic:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/hw_ws/build/raceteam_hw'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/hw_ws/install/cpp_topic:/opt/ros/iron')]), 'shell': False}
+[4.949269] (-) TimerEvent: {}
+[5.040063] (raceteam_hw) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/topTalker.cpp.o\x1b[0m\n'}
+[5.040332] (raceteam_hw) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/motor_node.dir/src/motor_node.cpp.o\x1b[0m\n'}
+[5.041270] (raceteam_hw) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o\x1b[0m\n'}
+[5.051374] (-) TimerEvent: {}
+[5.084053] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.h: No such file or directory\n'}
+[5.098804] (raceteam_hw) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.h"\x1b[m\x1b[K\n'}
+[5.099557] (raceteam_hw) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.099610] (raceteam_hw) StderrLine: {'line': b'compilation terminated.\n'}
+[5.100451] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/topTalker.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.h: No such file or directory\n'}
+[5.100684] (raceteam_hw) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.h"\x1b[m\x1b[K\n'}
+[5.100763] (raceteam_hw) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.100823] (raceteam_hw) StderrLine: {'line': b'compilation terminated.\n'}
+[5.144597] (raceteam_hw) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/topTalker.cpp.o] Error 1\n'}
+[5.146031] (raceteam_hw) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stroke_to_pwm_node.dir/build.make:76: CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o] Error 1\n'}
+[5.146465] (raceteam_hw) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/stroke_to_pwm_node.dir/all] Error 2\n'}
+[5.147534] (raceteam_hw) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.148863] (raceteam_hw) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/talker.dir/all] Error 2\n'}
+[5.151415] (-) TimerEvent: {}
+[5.253807] (-) TimerEvent: {}
+[5.354985] (-) TimerEvent: {}
+[5.455594] (-) TimerEvent: {}
+[5.568333] (-) TimerEvent: {}
+[5.670360] (-) TimerEvent: {}
+[5.782751] (-) TimerEvent: {}
+[5.884605] (-) TimerEvent: {}
+[5.986228] (-) TimerEvent: {}
+[6.087456] (-) TimerEvent: {}
+[6.188876] (-) TimerEvent: {}
+[6.295418] (-) TimerEvent: {}
+[6.407826] (-) TimerEvent: {}
+[6.509057] (-) TimerEvent: {}
+[6.609964] (-) TimerEvent: {}
+[6.721091] (-) TimerEvent: {}
+[6.822897] (-) TimerEvent: {}
+[6.931902] (-) TimerEvent: {}
+[7.068452] (-) TimerEvent: {}
+[7.169973] (-) TimerEvent: {}
+[7.273732] (-) TimerEvent: {}
+[7.379432] (-) TimerEvent: {}
+[7.481296] (-) TimerEvent: {}
+[7.583924] (-) TimerEvent: {}
+[7.700117] (-) TimerEvent: {}
+[7.806029] (-) TimerEvent: {}
+[8.168449] (-) TimerEvent: {}
+[8.392389] (-) TimerEvent: {}
+[8.550949] (-) TimerEvent: {}
+[8.654045] (-) TimerEvent: {}
+[9.667014] (-) TimerEvent: {}
+[9.770481] (-) TimerEvent: {}
+[9.916903] (-) TimerEvent: {}
+[10.028525] (-) TimerEvent: {}
+[10.152982] (-) TimerEvent: {}
+[11.279973] (-) TimerEvent: {}
+[11.385164] (-) TimerEvent: {}
+[11.488294] (-) TimerEvent: {}
+[11.591302] (-) TimerEvent: {}
+[11.765489] (-) TimerEvent: {}
+[13.441693] (-) TimerEvent: {}
+[13.561439] (-) TimerEvent: {}
+[13.834953] (-) TimerEvent: {}
+[13.945359] (-) TimerEvent: {}
+[14.060362] (-) TimerEvent: {}
+[14.169541] (-) TimerEvent: {}
+[14.428898] (-) TimerEvent: {}
+[14.539624] (-) TimerEvent: {}
+[14.657961] (-) TimerEvent: {}
+[14.764255] (-) TimerEvent: {}
+[14.870926] (-) TimerEvent: {}
+[14.977940] (-) TimerEvent: {}
+[16.791269] (-) TimerEvent: {}
+[16.894970] (-) TimerEvent: {}
+[16.998021] (-) TimerEvent: {}
+[17.099993] (-) TimerEvent: {}
+[17.201434] (-) TimerEvent: {}
+[17.302201] (-) TimerEvent: {}
+[17.405148] (-) TimerEvent: {}
+[17.457560] (raceteam_hw) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable motor_node\x1b[0m\n'}
+[17.505323] (-) TimerEvent: {}
+[17.605997] (-) TimerEvent: {}
+[17.706825] (-) TimerEvent: {}
+[17.807776] (-) TimerEvent: {}
+[17.908187] (-) TimerEvent: {}
+[18.013349] (-) TimerEvent: {}
+[18.114388] (-) TimerEvent: {}
+[18.213123] (raceteam_hw) StdoutLine: {'line': b'[ 66%] Built target motor_node\n'}
+[18.213567] (raceteam_hw) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.215036] (-) TimerEvent: {}
+[18.218188] (raceteam_hw) CommandEnded: {'returncode': 2}
+[18.315938] (-) TimerEvent: {}
+[18.419403] (-) TimerEvent: {}
+[18.447501] (raceteam_hw) JobEnded: {'identifier': 'raceteam_hw', 'rc': 2}
+[18.479493] (-) EventReactorShutdown: {}

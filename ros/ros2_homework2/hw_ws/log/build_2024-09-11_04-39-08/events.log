@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000434] (-) JobUnselected: {'identifier': 'cpp_topic'}
+[0.000470] (raceteam_hw) JobQueued: {'identifier': 'raceteam_hw', 'dependencies': OrderedDict()}
+[0.000487] (raceteam_hw) JobStarted: {'identifier': 'raceteam_hw'}
+[0.057314] (raceteam_hw) JobProgress: {'identifier': 'raceteam_hw', 'progress': 'cmake'}
+[0.060317] (raceteam_hw) JobProgress: {'identifier': 'raceteam_hw', 'progress': 'build'}
+[0.060364] (raceteam_hw) Command: {'cmd': ['/usr/bin/cmake', '--build', '/hw_ws/build/raceteam_hw', '--', '-j4', '-l4'], 'cwd': '/hw_ws/build/raceteam_hw', 'env': OrderedDict([('HOSTNAME', '65db7f20d1dc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/hw_ws/src/raceteam_softwareHW_2023/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/hw_ws/install'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/hw_ws/install/cpp_topic:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/hw_ws/build/raceteam_hw'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/hw_ws/install/cpp_topic:/opt/ros/iron')]), 'shell': False}
+[0.097098] (-) TimerEvent: {}
+[0.144762] (raceteam_hw) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_node\x1b[0m\n'}
+[0.146853] (raceteam_hw) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/topTalker.cpp.o\x1b[0m\n'}
+[0.173996] (raceteam_hw) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o\x1b[0m\n'}
+[0.199776] (-) TimerEvent: {}
+[0.204202] (raceteam_hw) StdoutLine: {'line': b'[ 66%] Built target motor_node\n'}
+[0.305204] (-) TimerEvent: {}
+[0.406309] (-) TimerEvent: {}
+[0.507371] (-) TimerEvent: {}
+[0.534222] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/topTalker.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/msg/Int32.hpp: No such file or directory\n'}
+[0.535901] (raceteam_hw) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"std_msgs/msg/Int32.hpp"\x1b[m\x1b[K\n'}
+[0.536040] (raceteam_hw) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.536108] (raceteam_hw) StderrLine: {'line': b'compilation terminated.\n'}
+[0.553306] (raceteam_hw) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/topTalker.cpp.o] Error 1\n'}
+[0.556160] (raceteam_hw) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/talker.dir/all] Error 2\n'}
+[0.556318] (raceteam_hw) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.607638] (-) TimerEvent: {}
+[0.708952] (-) TimerEvent: {}
+[0.817946] (-) TimerEvent: {}
+[0.920822] (-) TimerEvent: {}
+[1.021876] (-) TimerEvent: {}
+[1.123935] (-) TimerEvent: {}
+[1.226128] (-) TimerEvent: {}
+[1.328342] (-) TimerEvent: {}
+[1.429327] (-) TimerEvent: {}
+[1.533768] (-) TimerEvent: {}
+[1.635100] (-) TimerEvent: {}
+[1.735779] (-) TimerEvent: {}
+[1.837362] (-) TimerEvent: {}
+[1.939161] (-) TimerEvent: {}
+[2.044231] (-) TimerEvent: {}
+[2.148981] (-) TimerEvent: {}
+[2.250656] (-) TimerEvent: {}
+[2.352060] (-) TimerEvent: {}
+[2.453780] (-) TimerEvent: {}
+[2.554505] (-) TimerEvent: {}
+[2.657079] (-) TimerEvent: {}
+[2.758011] (-) TimerEvent: {}
+[2.858447] (-) TimerEvent: {}
+[2.959881] (-) TimerEvent: {}
+[3.060706] (-) TimerEvent: {}
+[3.162895] (-) TimerEvent: {}
+[3.270783] (-) TimerEvent: {}
+[3.373087] (-) TimerEvent: {}
+[3.399881] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:8:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KStrokeToPwmNode\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.401123] (raceteam_hw) StderrLine: {'line': b'    8 |         \x1b[01;31m\x1b[KStrokeToPwmNode\x1b[m\x1b[K() : Node("stroke_to_pwm_node")\n'}
+[3.428780] (raceteam_hw) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.430911] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:16:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.431575] (raceteam_hw) StderrLine: {'line': b'   16 |         void pedalSignalCallback(const \x1b[01;31m\x1b[Kstd_msg\x1b[m\x1b[K::msgs::Int32::SharedPtr msg) const\n'}
+[3.431643] (raceteam_hw) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.431691] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:16:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.431908] (raceteam_hw) StderrLine: {'line': b'   16 |         void pedalSignalCallback(const std_msg::msgs\x1b[01;31m\x1b[K::\x1b[m\x1b[KInt32::SharedPtr msg) const\n'}
+[3.431980] (raceteam_hw) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.432028] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:16:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.432076] (raceteam_hw) StderrLine: {'line': b'   16 |         void pedalSignalCallback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msg::msgs\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KInt32::SharedPtr msg) const\n'}
+[3.432122] (raceteam_hw) StderrLine: {'line': b'      |                                 \x1b[34m\x1b[K~\x1b[m\x1b[K                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[3.432167] (raceteam_hw) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[3.432211] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:16:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.432284] (raceteam_hw) StderrLine: {'line': b'   16 |         void pedalSignalCallback(const std_msg::\x1b[01;31m\x1b[Kmsgs\x1b[m\x1b[K::Int32::SharedPtr msg) const\n'}
+[3.432329] (raceteam_hw) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.432372] (raceteam_hw) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.432418] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:16:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInt32\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.432470] (raceteam_hw) StderrLine: {'line': b'   16 |         void pedalSignalCallback(const std_msg::msgs::\x1b[01;31m\x1b[KInt32\x1b[m\x1b[K::SharedPtr msg) const\n'}
+[3.432516] (raceteam_hw) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.467978] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint StrokeToPwnNode::StrokeToPwmNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.468216] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:8:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[3.468269] (raceteam_hw) StderrLine: {'line': b'    8 |         StrokeToPwmNode() : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("stroke_to_pwm_node")\n'}
+[3.468315] (raceteam_hw) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.471088] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:12:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KStrokeToPwmNode\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[3.471215] (raceteam_hw) StderrLine: {'line': b'   12 |                 "pedal_stroke", 10, std::bind(&\x1b[01;31m\x1b[KStrokeToPwmNode\x1b[m\x1b[K::pedalSignalCallback, this, _1));                        //pedal_stroke\n'}
+[3.471269] (raceteam_hw) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.472818] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:12:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.473031] (raceteam_hw) StderrLine: {'line': b'   12 |                 "pedal_stroke", 10, std::bind(&StrokeToPwmNode::pedalSignalCallback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));                        //pedal_stroke\n'}
+[3.473086] (-) TimerEvent: {}
+[3.473288] (raceteam_hw) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.473382] (raceteam_hw) StderrLine: {'line': b'      |                                                                                            \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[3.473441] (raceteam_hw) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.473898] (raceteam_hw) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.473971] (raceteam_hw) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[3.474017] (raceteam_hw) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.474067] (raceteam_hw) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.474111] (raceteam_hw) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.474154] (raceteam_hw) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.474197] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:225:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.474242] (raceteam_hw) StderrLine: {'line': b'  225 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[3.474286] (raceteam_hw) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.474328] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:13:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[3.474373] (raceteam_hw) StderrLine: {'line': b'   13 |         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[3.474416] (raceteam_hw) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.480059] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.480285] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:40:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KStrokeToPwmNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KStrokeToPwnNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.480343] (raceteam_hw) StderrLine: {'line': b'   40 |         rclcpp::spin(std::make_shared<\x1b[01;31m\x1b[KStrokeToPwmNode\x1b[m\x1b[K>());\n'}
+[3.480390] (raceteam_hw) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.480437] (raceteam_hw) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[KStrokeToPwnNode\x1b[m\x1b[K\n'}
+[3.480481] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:40:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.480554] (raceteam_hw) StderrLine: {'line': b'   40 |         rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<StrokeToPwmNode>()\x1b[m\x1b[K);\n'}
+[3.480601] (raceteam_hw) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.480645] (raceteam_hw) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.480689] (raceteam_hw) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165\x1b[m\x1b[K,\n'}
+[3.480733] (raceteam_hw) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.480777] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.480834] (raceteam_hw) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[3.480878] (raceteam_hw) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.480935] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.480983] (raceteam_hw) StderrLine: {'line': b'\x1b[01m\x1b[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:40:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.481026] (raceteam_hw) StderrLine: {'line': b'   40 |         rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<StrokeToPwmNode>()\x1b[m\x1b[K);\n'}
+[3.481070] (raceteam_hw) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.573333] (-) TimerEvent: {}
+[3.674434] (-) TimerEvent: {}
+[3.775799] (-) TimerEvent: {}
+[3.876953] (-) TimerEvent: {}
+[3.977923] (-) TimerEvent: {}
+[4.079741] (-) TimerEvent: {}
+[4.180294] (-) TimerEvent: {}
+[4.282796] (-) TimerEvent: {}
+[4.384050] (-) TimerEvent: {}
+[4.485119] (-) TimerEvent: {}
+[4.585936] (-) TimerEvent: {}
+[4.677008] (raceteam_hw) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stroke_to_pwm_node.dir/build.make:76: CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o] Error 1\n'}
+[4.677282] (raceteam_hw) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/stroke_to_pwm_node.dir/all] Error 2\n'}
+[4.677946] (raceteam_hw) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.684879] (raceteam_hw) CommandEnded: {'returncode': 2}
+[4.686177] (-) TimerEvent: {}
+[4.787627] (-) TimerEvent: {}
+[4.790174] (raceteam_hw) JobEnded: {'identifier': 'raceteam_hw', 'rc': 2}
+[4.826456] (-) EventReactorShutdown: {}

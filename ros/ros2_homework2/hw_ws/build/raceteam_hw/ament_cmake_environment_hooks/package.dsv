@@ -1,0 +1,4 @@
+source;share/raceteam_hw/local_setup.bash
+source;share/raceteam_hw/local_setup.dsv
+source;share/raceteam_hw/local_setup.sh
+source;share/raceteam_hw/local_setup.zsh

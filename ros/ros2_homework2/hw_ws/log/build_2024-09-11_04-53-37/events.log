@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.012461] (-) JobUnselected: {'identifier': 'cpp_topic'}
+[0.012633] (raceteam_hw) JobQueued: {'identifier': 'raceteam_hw', 'dependencies': OrderedDict()}
+[0.015908] (raceteam_hw) JobStarted: {'identifier': 'raceteam_hw'}
+[0.060506] (raceteam_hw) JobProgress: {'identifier': 'raceteam_hw', 'progress': 'cmake'}
+[0.064409] (raceteam_hw) JobProgress: {'identifier': 'raceteam_hw', 'progress': 'build'}
+[0.064519] (raceteam_hw) Command: {'cmd': ['/usr/bin/cmake', '--build', '/hw_ws/build/raceteam_hw', '--', '-j4', '-l4'], 'cwd': '/hw_ws/build/raceteam_hw', 'env': OrderedDict([('HOSTNAME', '65db7f20d1dc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/hw_ws/src/raceteam_softwareHW_2023/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/hw_ws/install'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/hw_ws/install/cpp_topic:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/hw_ws/build/raceteam_hw'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/hw_ws/install/cpp_topic:/opt/ros/iron')]), 'shell': False}
+[0.102766] (-) TimerEvent: {}
+[0.203731] (raceteam_hw) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stroke_to_pwm_node\x1b[0m\n'}
+[0.203962] (-) TimerEvent: {}
+[0.288585] (raceteam_hw) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o\x1b[0m\n'}
+[0.301973] (raceteam_hw) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.304070] (-) TimerEvent: {}
+[0.311856] (raceteam_hw) StdoutLine: {'line': b'[ 83%] Built target motor_node\n'}
+[0.407435] (-) TimerEvent: {}
+[0.511688] (-) TimerEvent: {}
+[0.612529] (-) TimerEvent: {}
+[0.716178] (-) TimerEvent: {}
+[0.817926] (-) TimerEvent: {}
+[0.919472] (-) TimerEvent: {}
+[1.021471] (-) TimerEvent: {}
+[1.123152] (-) TimerEvent: {}
+[1.224799] (-) TimerEvent: {}
+[1.327429] (-) TimerEvent: {}
+[1.431294] (-) TimerEvent: {}
+[1.533140] (-) TimerEvent: {}
+[1.634198] (-) TimerEvent: {}
+[1.736620] (-) TimerEvent: {}
+[1.838238] (-) TimerEvent: {}
+[1.939215] (-) TimerEvent: {}
+[2.040664] (-) TimerEvent: {}
+[2.141224] (-) TimerEvent: {}
+[2.242149] (-) TimerEvent: {}
+[2.345162] (-) TimerEvent: {}
+[2.447156] (-) TimerEvent: {}
+[2.548161] (-) TimerEvent: {}
+[2.650704] (-) TimerEvent: {}
+[2.751557] (-) TimerEvent: {}
+[2.852541] (-) TimerEvent: {}
+[2.953210] (-) TimerEvent: {}
+[3.055194] (-) TimerEvent: {}
+[3.157385] (-) TimerEvent: {}
+[3.258074] (-) TimerEvent: {}
+[3.360695] (-) TimerEvent: {}
+[3.463256] (-) TimerEvent: {}
+[3.566063] (-) TimerEvent: {}
+[3.670882] (-) TimerEvent: {}
+[3.779104] (-) TimerEvent: {}
+[3.880326] (-) TimerEvent: {}
+[3.985530] (-) TimerEvent: {}
+[4.087157] (-) TimerEvent: {}
+[4.191148] (-) TimerEvent: {}
+[4.294788] (-) TimerEvent: {}
+[4.397129] (-) TimerEvent: {}
+[4.502387] (-) TimerEvent: {}
+[4.604176] (-) TimerEvent: {}
+[4.705443] (-) TimerEvent: {}
+[4.807632] (-) TimerEvent: {}
+[4.908561] (-) TimerEvent: {}
+[5.013089] (-) TimerEvent: {}
+[5.114379] (-) TimerEvent: {}
+[5.215289] (-) TimerEvent: {}
+[5.316034] (-) TimerEvent: {}
+[5.418827] (-) TimerEvent: {}
+[5.522110] (-) TimerEvent: {}
+[5.624569] (-) TimerEvent: {}
+[5.727324] (-) TimerEvent: {}
+[5.829061] (-) TimerEvent: {}
+[5.930458] (-) TimerEvent: {}
+[6.032519] (-) TimerEvent: {}
+[6.133815] (-) TimerEvent: {}
+[6.236181] (-) TimerEvent: {}
+[6.340188] (-) TimerEvent: {}
+[6.442117] (-) TimerEvent: {}
+[6.544085] (-) TimerEvent: {}
+[6.646165] (-) TimerEvent: {}
+[6.748699] (-) TimerEvent: {}
+[6.854192] (-) TimerEvent: {}
+[6.954801] (-) TimerEvent: {}
+[7.056744] (-) TimerEvent: {}
+[7.157341] (-) TimerEvent: {}
+[7.258396] (-) TimerEvent: {}
+[7.360283] (-) TimerEvent: {}
+[7.464859] (-) TimerEvent: {}
+[7.570162] (-) TimerEvent: {}
+[7.672653] (-) TimerEvent: {}
+[7.776480] (-) TimerEvent: {}
+[7.879213] (-) TimerEvent: {}
+[7.980450] (-) TimerEvent: {}
+[8.081408] (-) TimerEvent: {}
+[8.182064] (-) TimerEvent: {}
+[8.283424] (-) TimerEvent: {}
+[8.384229] (-) TimerEvent: {}
+[8.487207] (-) TimerEvent: {}
+[8.589463] (-) TimerEvent: {}
+[8.691469] (-) TimerEvent: {}
+[8.795203] (-) TimerEvent: {}
+[8.896099] (-) TimerEvent: {}
+[8.997300] (-) TimerEvent: {}
+[9.052377] (raceteam_hw) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stroke_to_pwm_node\x1b[0m\n'}
+[9.371265] (-) TimerEvent: {}
+[9.477200] (-) TimerEvent: {}
+[9.488209] (raceteam_hw) StdoutLine: {'line': b'[100%] Built target stroke_to_pwm_node\n'}
+[9.569459] (raceteam_hw) CommandEnded: {'returncode': 0}
+[9.577307] (-) TimerEvent: {}
+[9.677708] (-) TimerEvent: {}
+[9.756500] (raceteam_hw) JobProgress: {'identifier': 'raceteam_hw', 'progress': 'install'}
+[9.781337] (raceteam_hw) Command: {'cmd': ['/usr/bin/cmake', '--install', '/hw_ws/build/raceteam_hw'], 'cwd': '/hw_ws/build/raceteam_hw', 'env': OrderedDict([('HOSTNAME', '65db7f20d1dc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/hw_ws/src/raceteam_softwareHW_2023/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/hw_ws/install'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/hw_ws/install/cpp_topic:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/hw_ws/build/raceteam_hw'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/hw_ws/install/cpp_topic:/opt/ros/iron')]), 'shell': False}
+[9.782882] (-) TimerEvent: {}
+[9.809451] (raceteam_hw) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.809626] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/lib/raceteam_hw/motor_node\n'}
+[9.816652] (raceteam_hw) StdoutLine: {'line': b'-- Set runtime path of "/hw_ws/install/raceteam_hw/lib/raceteam_hw/motor_node" to ""\n'}
+[9.816821] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/lib/raceteam_hw/stroke_to_pwm_node\n'}
+[9.822657] (raceteam_hw) StdoutLine: {'line': b'-- Set runtime path of "/hw_ws/install/raceteam_hw/lib/raceteam_hw/stroke_to_pwm_node" to ""\n'}
+[9.822811] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/lib/raceteam_hw/talker\n'}
+[9.851169] (raceteam_hw) StdoutLine: {'line': b'-- Set runtime path of "/hw_ws/install/raceteam_hw/lib/raceteam_hw/talker" to ""\n'}
+[9.851368] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/package_run_dependencies/raceteam_hw\n'}
+[9.854681] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/parent_prefix_path/raceteam_hw\n'}
+[9.854802] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/ament_prefix_path.sh\n'}
+[9.855850] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/ament_prefix_path.dsv\n'}
+[9.856144] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/path.sh\n'}
+[9.856304] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/environment/path.dsv\n'}
+[9.856467] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.bash\n'}
+[9.856583] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.sh\n'}
+[9.856735] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.zsh\n'}
+[9.856924] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/local_setup.dsv\n'}
+[9.857236] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/package.dsv\n'}
+[9.857298] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/ament_index/resource_index/packages/raceteam_hw\n'}
+[9.857346] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/cmake/raceteam_hwConfig.cmake\n'}
+[9.857678] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/cmake/raceteam_hwConfig-version.cmake\n'}
+[9.857794] (raceteam_hw) StdoutLine: {'line': b'-- Installing: /hw_ws/install/raceteam_hw/share/raceteam_hw/package.xml\n'}
+[9.858140] (raceteam_hw) CommandEnded: {'returncode': 0}
+[9.888498] (-) TimerEvent: {}
+[9.994107] (-) TimerEvent: {}
+[10.016609] (raceteam_hw) JobEnded: {'identifier': 'raceteam_hw', 'rc': 0}
+[10.023023] (-) EventReactorShutdown: {}

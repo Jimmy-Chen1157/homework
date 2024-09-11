@@ -1,0 +1,41 @@
+[0.067s] Invoking command in '/hw_ws/build/raceteam_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/raceteam_hw -- -j4 -l4
+[0.223s] [ 33%] Built target motor_node
+[0.237s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/topTalker.cpp.o[0m
+[0.282s] [35m[1mConsolidate compiler generated dependencies of target stroke_to_pwm_node[0m
+[0.315s] [ 66%] [32mBuilding CXX object CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o[0m
+[4.134s] [01m[K/hw_ws/src/raceteam_softwareHW_2023/src/topTalker.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[4.151s] [01m[K/hw_ws/src/raceteam_softwareHW_2023/src/topTalker.cpp:11:50:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[4.152s]    11 |                 timer_ = this->create_wall_timer([01;31m[K500ms[m[K, std::bind(&Talker::timer_callback, this));
+[4.152s]       |                                                  [01;31m[K^~~~~[m[K
+[4.193s] [01m[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:[m[K In member function ‘[01m[Kvoid StrokeToPwmNode::pedalSignalCallback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[4.193s] [01m[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:21:41:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst StrokeToPwmNode[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+[4.193s]    21 |                 int pwm = [01;31m[KstrokeToSignal(msg->data)[m[K;
+[4.193s]       |                           [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.193s] [01m[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:29:13:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kint StrokeToPwmNode::strokeToSignal(int)[m[K’
+[4.193s]    29 |         int [01;36m[KstrokeToSignal[m[K(int num)
+[4.193s]       |             [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.193s] [01m[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:22:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[4.194s]    22 |                 auto output = std_msgs::msg::Int32[01;31m[K;[m[K
+[4.195s]       |                                                   [01;31m[K^[m[K
+[4.195s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.195s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.195s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.195s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.195s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.195s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.195s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.195s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.195s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.195s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.195s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.195s]                  from [01m[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:2[m[K:
+[4.195s] [01m[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:25:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Int32_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[4.195s]    25 |                 RCLCPP_INFO(this->get_logger(), "I heard: '%d'", msg.[01;31m[Kdata[m[K);
+[4.195s]       |                                                                      [01;31m[K^~~~[m[K
+[6.143s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/topTalker.cpp.o] Error 1
+[6.148s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/talker.dir/all] Error 2
+[6.149s] gmake[1]: *** Waiting for unfinished jobs....
+[7.274s] gmake[2]: *** [CMakeFiles/stroke_to_pwm_node.dir/build.make:76: CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o] Error 1
+[7.278s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/stroke_to_pwm_node.dir/all] Error 2
+[7.278s] gmake: *** [Makefile:146: all] Error 2
+[7.291s] Invoked command in '/hw_ws/build/raceteam_hw' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/raceteam_hw -- -j4 -l4

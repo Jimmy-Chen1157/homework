@@ -1,0 +1,17 @@
+[0.085s] Invoking command in '/hw_ws/build/raceteam_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/raceteam_hw -- -j4 -l4
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target stroke_to_pwm_node[0m
+[0.186s] [ 16%] [32mBuilding CXX object CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o[0m
+[0.186s] [ 50%] Built target motor_node
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.245s] [ 83%] Built target talker
+[2.732s] [01m[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:[m[K In member function ‘[01m[Kvoid StrokeToPwmNode::pedalSignalCallback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.733s] [01m[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:21:41:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst StrokeToPwmNode[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+[2.733s]    21 |                 int pwm = [01;31m[KstrokeToSignal(msg->data)[m[K;
+[2.733s]       |                           [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[2.733s] [01m[K/hw_ws/src/raceteam_softwareHW_2023/src/stroke_to_pwm_node.cpp:29:13:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kint StrokeToPwmNode::strokeToSignal(int)[m[K’
+[2.733s]    29 |         int [01;36m[KstrokeToSignal[m[K(int num)
+[2.733s]       |             [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.025s] gmake[2]: *** [CMakeFiles/stroke_to_pwm_node.dir/build.make:76: CMakeFiles/stroke_to_pwm_node.dir/src/stroke_to_pwm_node.cpp.o] Error 1
+[5.025s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/stroke_to_pwm_node.dir/all] Error 2
+[5.034s] gmake: *** [Makefile:146: all] Error 2
+[5.059s] Invoked command in '/hw_ws/build/raceteam_hw' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/raceteam_hw -- -j4 -l4

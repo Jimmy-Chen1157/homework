@@ -1,0 +1,4 @@
+Invoking command in '/hw_ws/build/raceteam_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /hw_ws/src/raceteam_softwareHW_2023 -DCMAKE_INSTALL_PREFIX=/hw_ws/install/raceteam_hw
+Invoked command in '/hw_ws/build/raceteam_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /hw_ws/src/raceteam_softwareHW_2023 -DCMAKE_INSTALL_PREFIX=/hw_ws/install/raceteam_hw
+Invoking command in '/hw_ws/build/raceteam_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/raceteam_hw -- -j4 -l4
+Invoked command in '/hw_ws/build/raceteam_hw' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /hw_ws/build/raceteam_hw -- -j4 -l4
