@@ -14,8 +14,7 @@ add_executable(motor_node src/motor_node.cpp)
 ament_target_dependencies(motor_node rclcpp std_msgs)
 add_executable(stroke_to_pwm_node src/stroke_to_pwm_node.cpp)
 ament_target_dependencies(stroke_to_pwm_node rclcpp std_msgs)
-add_executable(talker src/topTalker.cpp)
-ament_target_dependencies(talker rclcpp std_msgs)
+
 		
 # uncomment the following section in order to fill in
 # further dependencies manually.
@@ -25,7 +24,6 @@ ament_target_dependencies(talker rclcpp std_msgs)
 install(TARGETS 
   motor_node
   stroke_to_pwm_node
-  talker
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
