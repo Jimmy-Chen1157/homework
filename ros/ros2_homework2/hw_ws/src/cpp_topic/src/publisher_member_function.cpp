@@ -5,26 +5,33 @@
 
 int main(int argc, char** argv)
 {
-    rclcpp::init(argc, argv); // Explain this line
-    auto node = rclcpp::Node::make_shared("publisher_node"); // Explain this line
-    auto publisher = node->create_publisher<std_msgs::msg::Int32>("count_values", 10); // Explalin this line
+    // Initialize rclcpp for passing values through command line
+    rclcpp::init(argc, argv);  
+
+    // Create a Node named "publisher_node", assigned to variable "node" as a pointer
+    auto node = rclcpp::Node::make_shared("publisher_node");
     
-    // 
+    // Create publisher of topic "count_values" with message type Int32
+    auto publisher = node->create_publisher<std_msgs::msg::Int32>("count_values", 10); 
+     
+    //  Create a Rate object of 1Hz
     rclcpp::Rate loop_rate(1);
         
     int count = 1;
     while (rclcpp::ok() && count <= 5)
     {
+	// Start node
 	rclcpp::spin_some(node);
         auto msg = std_msgs::msg::Int32();
+
         // Fill the missing line of code
    	msg.data = count;
         // Hint: makes the content of "msg" to be the value of "count" variable
 
         publisher->publish(msg);
-        RCLCPP_INFO(node->get_logger(), "Publishing: %d", msg.data); // Explain this line
-        // Fill the missing line of code
-        // Hint: execute the callback function under the "node" node
+	
+	// Print data of msg to console
+        RCLCPP_INFO(node->get_logger(), "Publishing: %d", msg.data); 
 
         loop_rate.sleep();
         count++;
